@@ -1,9 +1,9 @@
 <h1> Exploring Demographic Bias in Income Prediction: An Analysis of US and Non-US Native Groups </h1>
 <h2> Project Objective</h2>
 <p> 
-  This project utilizes the 1994 Census dataset to predict income levels based on demographic attributes. The primary focus is on analyzing how different demographic groups, specifically US-native versus non-US-native individuals, are represented within the data. The project involves data cleaning and feature engineering to prepare the dataset for modeling. 
-  I built several machine learning models to predict income levels and evaluate their performance through accuracy and AUC-ROC scores. 
-  The analysis reveals general trends in demographic representation and provides a foundation for future work, which could include a deeper examination of potential biases and fairness assessments in the model's predictions.
+  This project utilizes the 1994 Census dataset to predict income levels, specifically classifying whether an individual's income is less than or greater than or equal to $50K. The primary focus is on analyzing how different demographic groups, particularly US-native versus non-US-native individuals, are represented within the dataset. The project involves data cleaning and feature engineering to prepare the dataset for modeling. <br>
+
+Several machine learning models were built and evaluated based on accuracy and AUC-ROC scores. The analysis provides insights into general trends in demographic representation and establishes a foundation for future work, which entails a more in-depth examination of potential biases and fairness in the model's predictions.
   <br> </p>
 <em> *The 1994 Census dataset includes various demographic attributes such as age, work class, education level, marital status, occupation, and native country. The dataset contains a mix of categorical and numerical features, with a total of 32,561 records.* </em>
 
